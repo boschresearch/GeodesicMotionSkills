@@ -26,8 +26,8 @@ from sklearn.cluster import KMeans
 from sklearn.model_selection import train_test_split
 import glob
 import pickle
-from GeodesicMotionGenerator.Experiments.Utils import auxiliary_tests, discretized_manifold
-from GeodesicMotionGenerator.Experiments.Utils.environment import Environment
+from GeodesicMotionSkills.Experiments.Utils import auxiliary_tests, discretized_manifold
+from GeodesicMotionSkills.Experiments.Utils.environment import Environment
 from stochman.manifold import EmbeddedManifold
 from stochman import nnj
 import copy

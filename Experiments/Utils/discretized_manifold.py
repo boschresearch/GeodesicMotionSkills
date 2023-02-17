@@ -26,6 +26,7 @@ cf. https://github.com/MachineLearningLifeScience/stochman/blob/master/stochman/
 #!/usr/bin/env python3
 import torch
 from stochman import *
+from stochman.curves import CubicSpline
 import networkx as nx
 import matplotlib.pyplot as plt
 import copy

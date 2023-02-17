@@ -1,7 +1,7 @@
-Geodesic Motion Generator
+Geodesic Motion Skills
 =========================
 
-This repository constains the code for the paper *Learning Riemannian Manifolds for Geodesic Motion Skills* submitted at Robotics: Science and Systems 2021 conference. 
+This repository constains the code for the paper *Learning Riemannian Manifolds for Geodesic Motion Skills* published at Robotics: Science and Systems 2021 conference. 
 
 **Warning**: The development of this framework is ongoing, and thus some substantial changes might occur. Sorry for the inconvenience.
 
@@ -28,10 +28,7 @@ If you have them installed then skip this step
 mkdir gmg_repo
 cd gmg_repo
 
-git clone -b main https://<personal-token>@github.boschdevcloud.com/HAB2RNG/GeodesicMotionGenerator.git
-
-# If your Github personal token is not activated use the following command instead 
-git clone -b main https://github.boschdevcloud.com/HAB2RNG/GeodesicMotionGenerator.git
+git clone https://github.com/boschresearch/GeodesicMotionSkills.git
 
 # Clone Stochman from here (in the same directory)
 git clone https://github.com/MachineLearningLifeScience/stochman
@@ -43,7 +40,7 @@ cd ..
 git clone https://github.com/hadibeikm/s-vae-pytorch.git
 
 
-cd GeodesicMotionGenerator
+cd GeodesicMotionSkills
 
 # Create a virtual environment and activate it
 virtualenv -p /usr/bin/python3.8 gmg
@@ -68,8 +65,8 @@ export PYTHONPATH="${PYTHONPATH}:/your/repo/directory/gmg_repo"
 
 3. Execute the example code
 ```
-# Navigate to the Experiments folder in GeodesicMotionGenerator directory
-cd ../GeodesicMotionGenerator/Experiments/
+# Navigate to the Experiments folder in GeodesicMotionSkills directory
+cd ../GeodesicMotionSkills/Experiments/
 python toy_example.py 
 # This command will generate metric plot for our toy example mentioned in the paper
 ```
